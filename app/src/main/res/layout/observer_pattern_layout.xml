@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:weightSum="1">
+
+        <com.ted.view.ButtonRedSub
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RedButton"
+            android:id="@+id/btn_subject_red"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.77">
+
+            <com.ted.view.ButtonRedOb
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB1"
+                android:id="@+id/btn_red_ob1"
+                android:layout_weight="1"/>
+
+            <com.ted.view.ButtonRedOb
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB2"
+                android:id="@+id/btn_red_ob2"
+                android:layout_weight="1"/>
+
+            <com.ted.view.ButtonRedOb
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RB3"
+                android:layout_weight="1"
+                android:id="@+id/btn_red_ob3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5">
+
+        <com.ted.view.ButtonBlueSub
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BlueButton"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button6" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button8" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
